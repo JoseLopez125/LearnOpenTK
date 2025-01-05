@@ -36,7 +36,7 @@ public class Window : GameWindow
         // Copy the vertices data into the VBO (the size of the data is in bytes)
         GL.BufferData(BufferTarget.ArrayBuffer, vertices.Length * sizeof(float), vertices, BufferUsageHint.StaticDraw);
 
-        shader = new Shader("../../../Shaders/shader.vert", "../../../Shaders/shader.frag");
+        shader = new Shader("Shaders/shader.vert", "Shaders/shader.frag");
 
         vertexArrayObject = GL.GenVertexArray();
         GL.BindVertexArray(vertexArrayObject);

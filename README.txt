@@ -4,6 +4,7 @@ https://opentk.net/learn/index.html
 I also used the following GitHub Repo as a reference:
 https://github.com/opentk/LearnOpenTK/tree/master?tab=readme-ov-file
 
+Note: Each 'Lesson' has is its own dotnet project
 Lessons:
 Draw Triangle
     - In this project I simply learned how to draw a tringale to the screen
